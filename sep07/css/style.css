@@ -1,0 +1,47 @@
+header {
+  background-color: green;
+  color: purple;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+nav{
+  float: left;
+  color: red;
+}
+ul {
+  margin: 0;
+}
+li {
+  display:inline-block;
+  width: 20%;
+  float: left;
+  color: green;
+}
+main::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+body div{
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+div:nth-of-type(1) {
+  background-color: blue;
+}
+div:nth-of-type(2) {
+  background-color: red;
+}
+div:nth-of-type(3) {
+  background-color: purple;
+}
+div:nth-of-type(4) {
+  background-color: pink;
+}
+div:nth-of-type(5) {
+  background-color: green;
+}
