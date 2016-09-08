@@ -1,0 +1,76 @@
+label {
+  position: fixed;
+}
+label a {
+  color: white;
+  font-size: 3em;
+  text-decoration: none;
+}
+ul li{
+  display: inline-block;
+  float: right;
+  width: calc(75% / 20%);
+}
+body {
+  background-image: url(../img/background.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*div.overcat div {
+  background-color: hsla(0, 0%, 90%, 1);
+  position: absolute;
+  width: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 10px 15px 10px white;
+}
+div {
+  background-color: hsla(0, 0%, 0%, .5);
+  /*width: 50%;
+  height: 50%;*/
+  /*position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;*/
+  /*top: calc(50% - calc(150px / 2) );
+  left: calc(50% - calc(150px / 2) );*/
+}
+/*img {*/
+  /*float: right;*/
+  /*position: absolute;
+  top: calc(50% - calc(150px / 2) );
+  left: calc(50% - calc(150px / 2) );*/
+/*}*/
