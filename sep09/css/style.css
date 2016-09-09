@@ -1,0 +1,29 @@
+body {
+
+  background-image: url(../img/background.jpg);
+}
+h1 span {
+  color: blue;
+}
+div img {
+  height: 75px;
+  width: auto;
+}
+h1 a {
+  font-size: 1.5em;
+  color: white;
+  text-decoration: none;
+}
+div h1 p {
+  font-size: 10;
+  color: purple;
+}
+footer {
+  margin: 0;
+}
+#taco {
+  width: 100%;
+}
+header ul li {
+  text-decoration: none;
+}
