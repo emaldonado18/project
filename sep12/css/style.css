@@ -1,0 +1,67 @@
+/*header {
+  background-color: yellow;
+}
+h1 {
+  display: inline-block;
+}
+h1 a {
+  text-decoration: none;
+  color: black;
+}
+img {
+  width: 30px;
+  height: auto;
+  margin: 0 0 0 30px;
+  position: relative;
+}
+ul {
+  float: right;
+}
+ul li {
+  display: inline-block;
+  padding: 20px;
+  float: right;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+section {
+  margin: 0;
+}
+article {
+  width: 60%;
+  float: left;
+}
+aside {
+  width: 40%;
+  float: right;
+  background-color: red;
+}
+article {
+  background-color: blue;
+}
+article h2 {
+  width: 100%;
+  text-align: center;
+}
+article, div:nth-of-type(1){
+  width: 50%;
+}
+article, div:nth-of-type(2) {
+  width: 50%;
+}
+/*article h2, div:nth-of-type(1) {
+  color: red;
+  float: left;
+  display: block;
+  text-align: center;
+}
+div:nth-of-type(1) {
+  color: pink;
+  float: left;
+}
+div:nth-of-type(2) {
+  color: magenta;
+  float: right;
+}*/*/
