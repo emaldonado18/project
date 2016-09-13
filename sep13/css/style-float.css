@@ -1,0 +1,58 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
+  background-color: rgb(44, 201, 37);
+}
+article, label {
+  float:left;
+}
+header {
+  background-color: rgb(101, 56, 30);
+  height: 200px;
+}
+article {
+  background-color: rgb(42, 100, 148);
+  width: 25%;
+  height: 400px;
+}
+label {
+  background-color: rgb(119, 139, 28);
+  width: 75%;
+  height: 200px;
+  float: right;
+}
+footer {
+  background-color: rgb(54, 24, 103);
+  height: 50px;
+}
+main {
+  background-color: rgb(35, 177, 182);
+}
+main::after {
+  content: "";
+  display: block;
+  clear: both;
+}*/
