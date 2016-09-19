@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(80, 80, 65);
+}
+header {
+  background-color: rgb(64, 175, 41);
+  display: flex;
+  flex-direction: column;
+}
+table {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+}
+tr, td, th {
+  background-color: white;
+  border: 5px solid black;
+  width: 50px;
+  height: 50px;
+  flex: 1;
+}
+tbody {
+  background-color: white;
+  border:
+}
+main, p, section {
+  color: rgb(58, 80, 74);
+  background-color: rgba(182, 150, 69, 0.52);
+  height: 300px;
+  width: 100%;
+}
+aside {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}

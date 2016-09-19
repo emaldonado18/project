@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(149, 162, 45);
+  margin: 0;
+  font-family: sans-serif;
+}
+.content {
+  width: 50%;
+  margin: 100px auto;
+}
+.content {
+  text-align: center;
+}
+address {
+  margin-bottom: 40px;
+}
+address a {
+  display: block;
+  text-decoration: none;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form div {
+  display: flex;
+}
+form input[type="text"] {
+  margin-right: 10px;
+}
+form input[type="text"],
+form input[type="email"] {
+  flex: 1;
+}
+form textarea {
+  flex: 1;
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  max-height: 300px;
+  min-height: 100px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  margin-bottom: 10px;
+  background-color: rgb(50, 173, 159);
+  color: rgb(85, 50, 74);
+  padding: 5px;
+  border: none;
+}
+form input[type="submit"] {
+  align-self: flex-end;
+  border: none;
+  padding: 10px 15px;
+  background-color: rgb(148, 33, 109);
+  color: white;
+}
