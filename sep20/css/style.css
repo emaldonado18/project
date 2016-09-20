@@ -1,0 +1,73 @@
+@import 'https://fonts.googleapis.com/css?family=Assistant';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css';
+
+body {
+  margin: 0;
+  font-family: 'Assistant', sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+nav h1 {
+
+}
+nav ul {
+  display: inline-flex;
+  align-items: center;
+  list-style: none;
+}
+nav * {
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  padding: 10px;
+  margin: 0 5px;
+  font-size: 80%;
+}
+nav ul li {
+  text-decoration: none;
+  color: inherit;;
+}
+.content {
+  width: 65%;
+  margin: auto;
+}
+#hero {
+  text-align: center;
+  background-color: rgb(210, 197, 226);
+  position: relative;
+  padding: 50px 0 300px;
+  overflow: hidden;
+}
+#hero img {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate3d(-50%, 50%, 0);
+}
+#features {
+  margin-top: 50px;
+  display: flex;
+}
+.features {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
