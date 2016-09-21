@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: rgb(210, 197, 226);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+nav h1 {
+  color: blue;
+}
+nav ul {
+  display: inline-flex;
+  align-items: center;
+  list-style: none;
+}
+nav * {
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  padding: 10px;
+  margin: 0 5px;
+  font-size: 80%;
+}
+nav ul li a{
+  text-decoration: none;
+  color: inherit;
+}
+.taco {
+  border: 2px solid black;
+}
+.content {
+  width: 50%;
+  margin: auto;
+}
+.content h2 {
+  font-size: 45px;
+}
+.content h4 {
+  font-size: 20px;
+}
+#hero {
+  background-color: #EEE8F6;
+  color: rgb(181, 114, 198);
+  text-align: center;
+  position: relative;
+  padding: 150px 0 300px;
+  overflow: hidden;
+}
+#hero .button {
+  width: 5%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #7D55C8;
+  color: white;
+  text-decoration: none;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.click {
+  text-align: center;
+}
+.fa.fa-twitter {
+  border: 5px dotted rgb(30, 156, 47);
+  color: white;
+  padding: 5px 120px;
+  height: 30px;
+  width: 30px;
+}
+.fa.fa-instagram {
+  border: 5px dotted rgb(30, 156, 47);
+  color: white;
+  padding: 5px 120px;
+  height: 30px;
+  width: 30px;
+}
+.salsa {
+  background-color: rgb(51, 92, 121);
+}
+.salsa h1 {
+  font-size: 2em;
+}
