@@ -48,7 +48,7 @@ nav ul li a{
   color: rgb(181, 114, 198);
   text-align: center;
   position: relative;
-  padding: 150px 0 300px;
+  padding: 100px 0 300px;
   overflow: hidden;
 }
 #hero .button {
@@ -64,12 +64,19 @@ nav ul li a{
 .click {
   text-align: center;
 }
+.click img {
+
+}
 .fa.fa-twitter {
   border: 5px dotted rgb(30, 156, 47);
   color: white;
   padding: 5px 120px;
   height: 30px;
   width: 30px;
+  background-image: url(http://a.abcnews.com/images/Technology/ht_twitter_logo_jef_120321_wblog.jpg);
+  color: rgb(125, 109, 101);
+  background-size: cover;
+  background-position: center;
 }
 .fa.fa-instagram {
   border: 5px dotted rgb(30, 156, 47);
@@ -77,9 +84,16 @@ nav ul li a{
   padding: 5px 120px;
   height: 30px;
   width: 30px;
+  background-image: url(http://s1.ibtimes.com/sites/www.ibtimes.com/files/styles/lg/public/2016/08/03/instagramlogo.jpg);
+  color: rgb(21, 18, 142);
+  background-size: cover;
+  background-position: center;
 }
 .salsa {
-  background-color: rgb(51, 92, 121);
+  padding: 75px;
+  background-image: url(https://thumbs.dreamstime.com/z/social-media-follow-us-concept-abstract-background-36072463.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .salsa h1 {
   font-size: 2em;
