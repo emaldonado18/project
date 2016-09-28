@@ -1,0 +1,45 @@
+#content {
+  float: left;
+  width: 50%;
+  margin-right: 24px;
+  padding: 0px;
+  height: 400px;
+}
+div {
+    display: block;
+}
+#sidebar1 {
+  float: left;
+  width: 23%;
+  margin: 0px;
+  padding: 0px;
+  color: hsl(346, 100%, 35%);
+}
+#sidebar2 {
+  float: right;
+  width: 25%;
+  margin: 0px;
+  padding: 0px;
+  color: hsl(346, 100%, 35%);
+}
+.list-style2 li {
+  padding: 5px 5px;
+  border-top: 1px solid #EEEEEE;
+}
+.list-style2 {
+  list-style: decimal-leading-zero;;
+}
+.list-style2 a{
+  color: hsl(0, 0%, 47%);
+  text-decoration: none;
+}
+p, a {
+  text-decoration: none;
+  color: hsl(346, 100%, 35%);
+}
+p {
+  color: hsl(0, 0%, 47%);
+}
+a:hover {
+  text-decoration: underline;
+}
