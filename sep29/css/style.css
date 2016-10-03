@@ -7,6 +7,7 @@ header {
   height: 550px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 header img {
   height: 30px;
@@ -154,4 +155,12 @@ section hr:nth-of-type(2) {
   height: 2px;
   width: 100%;
   color: rgb(11, 164, 204);
+}
+.container a {
+  text-decoration: none;
+  color: black;
+}
+.container .click a {
+  color: blue;
+  text-decoration: underline;
 }
