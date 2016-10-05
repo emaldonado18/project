@@ -7,10 +7,12 @@ header {
   height: 550px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
 }
 header img {
   height: 30px;
+}
+header nav img {
+  margin:  
 }
 header nav {
   display: flex;
