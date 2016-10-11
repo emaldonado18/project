@@ -1,0 +1,211 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+body{
+  margin:0;
+  font-family: 'Roboto',sans-serif;
+}
+nav h1{
+  background-image: url(../img/logo-229x39.png);
+  background-repeat: no-repeat;
+
+}
+header{
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/home-slider-1-slide-2.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+  color: white;
+  margin: 0;
+}
+header h2 a {
+  text-decoration: none;
+  color: black;
+}
+nav{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  font-size: 125%;
+}
+nav li a{
+  text-decoration: none;
+  color: inherit;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav> ul> li::after{
+  content: "/";
+  display: inline-block;
+  margin: 0 10px 0;
+}
+nav> ul> li{
+  position: relative;
+}
+nav li:last-child::after{
+  content: none;
+}
+nav ul ul{
+  width:200px;
+  display: none;
+  position: absolute;
+  top:100%;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+  background-color: hsla(0, 0%, 0%, .8);
+  font-size: 100%;
+  text-align: center;
+
+}
+nav ul ul a{
+  display: block;
+  padding: 20px 0;
+}
+nav> ul> li:hover ul{
+  display: block;
+}
+nav ul ul li{
+
+}
+nav h1 a{
+  width:229px;
+  height:39px;
+  display: block;
+  color: transparent;
+}
+header h2{
+  margin: auto;
+  font-size: 15vh;
+}
+/*-----
+SECTION GALLERY
+-----*/
+#gallery{
+  display: flex;
+  flex-wrap: wrap;
+}
+#gallery > div{
+  width: calc(100% / 4);
+  height: 28vw;
+  overflow: hidden;
+  position: relative;
+}
+#gallery > div > img {
+  width: 100%;
+  transform: scale(1.25);
+}
+#gallery > div:hover div {
+  display: flex;
+}
+#gallery div div {
+  transition: all 1000 ease-in-out;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: hsla(198, 100%, 58%, .8);
+}
+#gallery{
+  display: flex;
+  flex-wrap: wrap;
+}
+#gallery > div{
+  width: 25%;
+  height: 28vw;
+  overflow: hidden;
+  position: relative;
+}
+#gallery > div > img{
+  width: 100%;
+  transform: scale(1.5);
+}
+#gallery div:hover div{
+  opacity: 1;
+  border-radius: 0%;
+  transform: scale(1);
+}
+
+#gallery div div{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  transform: scale(.75);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: hsla(198, 100%, 58%, 0.8);
+  border-radius: 100%;
+  opacity: 0;
+  transition: 500ms;
+}
+section h1 {
+  font-size: 52px;
+}
+.divi {
+  height: 6px;
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 25px;
+}
+.divi:before {
+  width: 97px;
+  top: 0;
+  z-index: 2;
+  background: #29c0ff;
+}
+.divi:after {
+  z-index: 1;
+  width: 100%;
+  height: 1px;
+  background: rgba(54, 49, 52, 0.1);
+}
+*:before, *:after {
+  box-sizing: border-box;
+}
+.divi:before, .divi:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+section:nth-of-type(2) div.container{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+section:nth-of-type(2) div.container div{
+  width: 20%;
+}
+section hr:nth-of-type(1) {
+  padding-left: 60px;
+  height: 6px;
+  width: 20%;
+  color: blue;
+}
+section hr:nth-of-type(2) {
+  height: 2px;
+  width: 100%;
+  color: rgb(11, 164, 204);
+}
+.container a {
+  text-decoration: none;
+  color: black;
+}
+.container .click a {
+  font-size: 1.4vh;
+  color: blue;
+  text-decoration: underline;
+}

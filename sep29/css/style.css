@@ -12,11 +12,15 @@ header img {
   height: 30px;
 }
 header nav img {
-  margin:  
+  margin: 0;
 }
 header nav {
   display: flex;
   justify-content: space-between;
+}
+header h1  a {
+  text-decoration: none;
+  color: black;
 }
 header ul li {
   display: inline-block;
@@ -163,6 +167,7 @@ section hr:nth-of-type(2) {
   color: black;
 }
 .container .click a {
+  font-size: 1.4vh;
   color: blue;
   text-decoration: underline;
 }
