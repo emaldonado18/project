@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Forms</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <section>
+    <h2>contact</h2>
+      <hr>
+      <hr>
+        <form>
+          <div>
+            <legend><span>Name</span>
+            <input type="text" id="Name" value="" placeholder="Name">
+            </legend>
+            <legend><span>Email</span>
+            <input type="email" value="" placeholder="Email">
+            </legend>
+          </div>
+          <div>
+            <textarea id="message"rows="2" cols="40"
+            placeholder="Message"></textarea>
+            <!-- <input type="submit" id="submit" value="SEND"> -->
+            <button type="button" id="submit">SEND</button>
+          </div>
+        </form>
+  </section>
+  <script>
+    var span = document.querySelectorAll('legend span');
+    // console.log(span);
+    for(var i = 0; i < span.length; i++){
+      span[i].addEventLister('click', function(){
+        // console.log(This);
+        this.classlist.toggle('placeholder');
+      });
+    }
+  </script>
+</body>
+</html>
