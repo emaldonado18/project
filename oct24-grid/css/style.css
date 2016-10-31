@@ -1,0 +1,17 @@
+body {
+  display: grid;
+  grid-template-columns: 200px 100px;
+  grid-template-rows:
+}
+.a {
+  background-color: rgb(203, 108, 251);
+}
+.b {
+  background-color: rgb(231, 251, 108);
+}
+.c {
+  background-color: rgb(251, 108, 194);
+}
+.d {
+  background-color: rgb(251, 151, 108);
+}

@@ -1,0 +1,100 @@
+@media screen and (max-width: 774px){
+  body {
+    border: none;
+    margin: 0;
+  }
+  hr {
+    display: none;
+  }
+  body > header, main {
+    border none;
+  }
+  body > header {
+    background-image: url(../img/berrockbanner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  body > header > h1 {
+    margin: 10px auto;
+    background-color: hsla(60, 100%, 97%, .85);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3px 20px 22px;
+  }
+  header div {
+    display: none;
+  }
+  nav {
+    text-align: center;
+  }
+  nav ul {
+    display: inline-flex;
+    flex-direction: column;
+    border-width: 1px;
+    padding: 0 10vw 0;
+    border-radius: 30px;
+  }
+  nav li {
+    line-height: 2;
+    text-align: center;
+  }
+  section, aside {
+    width: 100%;
+    padding: 0 25px 20px;
+  }
+  /*menu*/
+  #menu .pop {
+    text-align: center;
+  }
+  #menu .none li{
+    line-height: 1.5;
+    font-size: 2vw;
+  }
+  #menu section .taco {
+    width: 100%;
+  }
+  #menu .poop{
+    font-size: 4.674vw;
+    padding-bottom: 2vh;
+  }
+  #menu .tt li{
+    text-align: center;
+    list-style-type: none;
+    padding-right: 40px;
+    font-size: 2.8vw;
+  }
+  #menu section h3 {
+    font-size: 4vw;
+  }
+  #menu section p {
+    font-size: 2.763vw;
+  }
+  /*news*/
+  #news p{
+    font-size: 2.659vw;
+  }
+  .grad h2 {
+    font-size: 150%;
+    padding-right: 3px;
+  }
+  /*contact*/
+  #contact p {
+    font-size: .9em;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 1.2vh;
+    padding-bottom: 2.8vh;
+  }
+  .grad h2 {
+    font-size: 4vw;
+  }
+  .grad .fa {
+    font-size: 2em;
+  }
+  #contact address a{
+    text-decoration: none;
+    color: black;
+    padding-top: 1.3vh;
+  }
+}
