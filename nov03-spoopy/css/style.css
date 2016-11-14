@@ -1,0 +1,39 @@
+html {
+  background-image: url(../img/headbg.jpg), url(../img/bobybg.jpg);
+  background-position: center top;
+  background-repeat: no-repeat, repeat-x;
+  background-color: black;
+}
+#home {
+  color: #b86a21;
+  width: 800px;
+  margin: 0 auto;
+}
+main section {
+  background-image: url(../img/leftbg.jpg);
+  background-repeat: no-repeat, repeat-x;
+  width: 65%;
+}
+main aside {
+  background-image: url(../img/rightbg.png);
+  background-repeat: no-repeat, repeat-x;
+  width: 35%;
+}
+section {
+  width: 64%;
+  float: left;
+}
+aside {
+  width: 34%;
+  float: right;
+}
+#mega {
+  background-color: hsl(9, 83%, 9%);
+}
+
+#mega {
+  display: inline-flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+}
