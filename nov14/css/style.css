@@ -1,0 +1,28 @@
+body {
+  background-color: #f4f4f4;
+  letter-spacing: 0.05em;
+}
+div .wrap {
+  display: inline-block;
+  background-color: white;
+}
+.left {
+  float: left;
+  width: 50%;
+}
+.left div img {
+   width: 100%;
+}
+.right {
+  margin: 0 auto;
+  width: 49%;
+  height: inherit;
+}
+/***** header *****/
+header {
+  margin: 3em 0;
+}
+header {
+  font-size: 1.5em;
+}
+/***** link *****/
