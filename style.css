@@ -1,0 +1,350 @@
+/*
+project: persinal portfolio
+*/
+/*=====Global Styles=====*/
+body, html{
+  margin: 0px;
+  padding: 0px;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color:#333;
+}
+h1, h2{
+  margin: 0px;
+}
+.container{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.border{
+  border-bottom: 2px solid #fff;
+  padding: 20px 0px;
+}
+/*===== header styles =====*/
+header{
+  height: 100px;
+  background: #CC5B10;
+}
+header a{
+  color: #F1ED79;
+}
+.logo{
+  width: 30%;
+  float: left;
+  margin-top: 30px;
+}
+.logo h1{
+  text-align: center;
+  margin: 0px;
+}
+.menu{
+  width: 30%;
+  float: left;
+  margin-top: 25px;
+}
+.menu li{
+  float: left;
+}
+.menu li:after{
+  padding-right: 7px;
+  content: " | ";
+}
+.sm-icons{
+  font-size: 1.5em;
+  width: 30%;
+  float: left;
+  margin-top: 40px;
+}
+.sm-icons a{
+  padding-right: 7px;
+}
+/*===== beggining of image articles =====*/
+#images img {
+  text-align: center;
+  /*position: fixed;*/
+}
+/*===== banner styles=====*/
+#banner{
+  height: 300px;
+  background:
+  url("../img/coding.jpg")
+  center;
+  background-attachment: fixed;
+}
+#banner h1{
+  text-align: center;
+  margin: 0;
+  padding: 100px 0px;
+  font-size: 3em;
+  text-decoration: underline;
+  color: blue;
+}
+/*===== this is video background =====*/
+
+#video-sec {
+    width: 100%;
+    position: relative;
+    padding-bottom: 54%;
+    padding-top: 30px;
+    height: 0px;
+    overflow: hidden;
+}
+.video-box {
+    width: 75%;
+    margin: 0px auto;
+    background-color: #333;
+}
+#video-sec iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+/*===== Skills Styles=====*/
+/*===== this just checkpoint =====*/
+
+#skills {
+    background-color: #333;
+    height: 475px;
+    color: #fff;
+}
+.container {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.border {
+    border-bottom: 2px solid #fff;
+    padding: 20px 0px;
+}
+#skills .box {
+    height: 100%;
+    width: 25%;
+    border: 2px solid #fff;
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 30px 2% 10px 2%;
+    border-radius: 5px;
+    background-color: #2A5AD6;
+}
+.skills-icon {
+    height: 50px;
+    width: 50px;
+    margin: 0px auto;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    background-color: inherit;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+.skills-icon i {
+    font-size: 2em;
+    color: #fff;
+    margin: 9px 11px;
+}
+div {
+    display: block;
+}
+.skills-info h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+.skills-info p {
+    text-align: justify;
+    line-height: 22px;
+}
+
+/*===== this is just checkpoint =====*/
+/*===== this is more about me ======*/
+#about{
+height: 300px;
+  background-color: blue;;
+}
+#about .box{
+  width: 60%;
+  height: 200px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  border: 3px dashed white;
+  float: left;
+}
+.about-img{
+  background-image: url("../img/IMG_0121.jpg");
+  width: 25%;
+  height: 200px;
+  background-size: cover;
+  float: left;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 100%;
+
+}
+#about h2{
+  font-size: 100%;
+  text-align: center;
+}
+#about p{
+  text-align: center;
+}
+/*===== this is the end of the main about page =====*/
+/*===== start of footer =====*/
+footer {
+    height: 100px;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 40px 20px;
+    clear: both;
+}
+footer p {
+    margin: 0;
+}
+.soc-icons {
+    width: 400px;
+    margin: 20px auto;
+}
+.icon i {
+    font-size: 2em;
+    padding-top: 9px;
+}
+.icon i {
+    font-size: 2em;
+    padding-top: 9px;
+}
+.icon i {
+    font-size: 2em;
+    padding-top: 9px;
+}
+footer .icon {
+    display: inline-block;
+    margin-right: 5px;
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.copyright {
+    text-align: center;
+}
+/*===== this is the end of footer =====*/
+/*===== this is the about beggining  =====*/
+#about-page {
+    padding: 10px;
+    background-color: blue;
+    height: 629px;
+    width: 100%;
+}
+#about-page article {
+    width: 600px;
+    float: left;
+    padding: 10px;
+}
+#about-page h1 {
+    text-align: center;
+    font-size: 3em;
+}
+#about-page p {
+    line-height: 1.2em;
+    text-align: justify;
+}
+ul {
+    list-style-type: none;
+}
+#about-page li {
+    padding: 2px;
+}
+#about-page article {
+    width: 600px;
+    float: left;
+    padding: 10px;
+}
+.align-right {
+    margin-left: 24px;
+    margin-top: 85px;
+    float: left;
+    width: 384px;
+}
+figure {
+    margin: 0px;
+    padding: 0px;
+}
+.selfie {
+    height: 384px;
+    width: auto;
+}
+
+/*===== this is the end of the about  ======*/
+/*===== contact styles =====*/
+#map {
+    background: #333;
+    width: 100%;
+    height: 400px;
+}
+.map-box {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+}
+#map iframe {
+    width: 100%;
+    height: 100%;
+}
+#contact{
+  height: 600px;
+  width:100%;
+  background-color: blue;
+  color: #fff;
+}
+#contact h1 {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 3em;
+}
+.contact-content {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+.form-box{
+  width: 75%;
+float: left;
+padding: 0;
+}
+#contact form {
+    width: 75%;
+    margin: 0 auto;
+}
+#contact form{
+  width: 75%;
+  margin: 0 auto;
+}
+.contact-info{
+  width: 25%;
+  float: left;
+}
+.contact-info ul {
+    margin: 0;
+    padding: 0;
+    font-size: 1.23em;
+}
+#contact form input {
+    display: block;
+    height: 45px;
+    width: 100%;
+    margin: 10px 0;
+}
+#contact textarea {
+    width: 100%;
+    height: 150px;
+}
+#contact .p{
+  text-align: center;
+  color: red;
+}
