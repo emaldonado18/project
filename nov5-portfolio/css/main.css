@@ -27,10 +27,10 @@ h1, h2{
 /*===== header styles =====*/
 header{
   height: 100px;
-  background: #2A5AD6;
+  background: #CC5B10;
 }
 header a{
-  color: #fff;
+  color: #F1ED79;
 }
 .logo{
   width: 30%;
@@ -61,6 +61,11 @@ header a{
 }
 .sm-icons a{
   padding-right: 7px;
+}
+/*===== beggining of image articles =====*/
+#images img {
+  text-align: center;
+  /*position: fixed;*/
 }
 /*===== banner styles=====*/
 #banner{

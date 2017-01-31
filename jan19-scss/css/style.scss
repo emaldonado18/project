@@ -1,0 +1,41 @@
+@import '_colors.scss';
+
+html, body{
+  height: 100%;
+}
+
+body{
+background-color: black;
+color:$primary;
+font-size: 32px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+div{
+  width: 250px;
+  height: 250px;
+  border: solid white 1px;
+  position: relative;
+  a{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border: solid $primary  1px;
+    $i: 1;
+    @each $color in $baseArray {
+      &:nth-child(#{ $i }){
+      background-color: $color;
+    }
+
+    $i:$i + 1;
+    }
+  }
+  a:nth-child(1){
+    transform: translate3d(-50%, -50%, 0);
+  }
+}

@@ -1,0 +1,63 @@
+$key-color: skyblue;
+$secondary-color: purple;
+$tertiary-color: black;
+
+// button styles
+$btn-color: rgb(169, 196, 90);
+$btn-lite: rgb(169, 186, 80);
+$btn-dark: rgb(169, 206, 100);
+
+body {
+  background-color: $key-color;
+  color: $secondary-color;
+  border: 3px solid $tertiary-color;
+  text-align: center;
+  margin: 0;
+  padding: 5%;
+}
+div {
+  background-color: #fafafa;
+  border-radius: 10%;
+  padding: 25px;
+  button {
+    background-color: $btn-color;
+    border-color: $btn-lite $btn-lite $btn-dark $btn-dark;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 10px;
+
+  }
+}
+ul {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+ul li {
+  list-style: none;
+  color: black;
+}
+.one {
+  background-color: red;
+  padding: 3%;
+}
+.two {
+  background-color: orange;
+  padding: 3%;
+}
+.three {
+  background-color: yellow;
+  padding: 3%;
+}
+.four {
+  background-color: green;
+  padding: 3%;
+}
+.five {
+  background-color: blue;
+  padding: 3%;
+}
+.six {
+  background-color: purple;
+  padding: 3%;
+}

@@ -1,0 +1,55 @@
+body {
+  background-color: skyblue;
+  color: purple;
+  border: 3px solid black;
+  text-align: center;
+  margin: 0;
+  padding: 5%; }
+
+div {
+  background-color: #fafafa;
+  border-radius: 10%;
+  padding: 25px; }
+  div button {
+    background-color: #a9c45a;
+    border-color: #a9ba50 #a9ba50 #a9ce64 #a9ce64;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 10px; }
+
+ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+ul li {
+  list-style: none;
+  color: black; }
+
+.one {
+  background-color: red;
+  padding: 3%; }
+
+.two {
+  background-color: orange;
+  padding: 3%; }
+
+.three {
+  background-color: yellow;
+  padding: 3%; }
+
+.four {
+  background-color: green;
+  padding: 3%; }
+
+.five {
+  background-color: blue;
+  padding: 3%; }
+
+.six {
+  background-color: purple;
+  padding: 3%; }
