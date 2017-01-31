@@ -71,7 +71,7 @@ header a{
 #banner{
   height: 300px;
   background:
-  url("../img/coding.jpg")
+  url("img/coding.jpg")
   center;
   background-attachment: fixed;
 }
@@ -176,7 +176,7 @@ height: 300px;
   float: left;
 }
 .about-img{
-  background-image: url("../img/IMG_0121.jpg");
+  background-image: url("img/IMG_0121.jpg");
   width: 25%;
   height: 200px;
   background-size: cover;
