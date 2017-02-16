@@ -48,7 +48,7 @@ div {
   border-top: 1px solid #EEEEEE;
 }
 .list-style2 {
-  list-style: decimal-leading-zero;;
+  list-style: decimal-leading-zero;
 }
 .list-style2 a{
   color: hsl(0, 0%, 47%);

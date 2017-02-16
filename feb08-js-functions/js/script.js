@@ -42,6 +42,10 @@ var spyname = function(){
   alert(arguments[0] + ' ' + arguments[1]);
 }(randName, randFood);
 
+var spyname = function(){
+  alert(arguments[0] + ' ' +  arguments[1]);
+}(randName, randFood)
+
 
 
 
